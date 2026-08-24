@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --background: #0A0A0A;
+  --card: #141414;
+  --border: #2A2A2A;
+  --foreground: #F2F2F2;
+  --muted-foreground: #888888;
+  --primary: #A855F7;
+  --accent: #C084FC;
+  --surface-hover: #1E1E1E;
+  --glow-primary: rgba(168, 85, 247, 0.15);
+  --glow-accent: rgba(192, 132, 252, 0.1);
+
+  /* ── Alias tokens (map one-off names to design-system tokens) ── */
+  /* page.tsx aliases */
+  --surface-1: #0A0A0A;          /* same as --background */
+  --accent-fg: #ffffff;          /* text on accent-coloured surfaces */
+  --accent-hover: #d8b4fe;       /* lighter purple for hover state */
+
+  /* about/page.tsx aliases */
+  --brand-accent: #A855F7;       /* same as --primary */
+
+  /* contact/page.tsx aliases */
+  --color-surface: #141414;      /* same as --card */
+  --color-text: #F2F2F2;         /* same as --foreground */
+  --color-muted: #888888;        /* same as --muted-foreground */
+  --color-accent: #A855F7;       /* same as --primary */
+  --color-border: #2A2A2A;       /* same as --border */
+
+  /* projects/page.tsx — used as hsl(var(--muted)) so value must be raw HSL channels */
+  --muted: 270 5% 12%;           /* dark muted surface, HSL channels only */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
+
+.font-sans {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effect utility */
+.glow-primary {
+  box-shadow: 0 0 24px var(--glow-primary), 0 0 48px var(--glow-accent);
+}
+
+/* Card surface */
+.card-surface {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 0 0 1px rgba(168, 85, 247, 0.08), 0 8px 32px rgba(0, 0, 0, 0.64);
+}
+
+/* Focus visible */
+*:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}

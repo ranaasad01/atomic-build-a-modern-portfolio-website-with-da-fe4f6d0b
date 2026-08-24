@@ -1,0 +1,478 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": [
+    "Scroll to explore",
+    "Available for freelance",
+    "Based in San Francisco, CA"
+  ],
+  "featured-projects": [
+    {
+      "title": "Luminary",
+      "description": "AI-powered content scheduling platform. Built with Next.js, OpenAI, and Supabase. Reduced content planning time by 60% for 3,000+ users.",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "OpenAI",
+        "Supabase"
+      ],
+      "image": "/images/luminary-ai-content-platform.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Vanta Dashboard",
+      "description": "Real-time analytics suite for e-commerce brands. Custom charting library, WebSocket data feeds, and role-based access control.",
+      "tags": [
+        "React",
+        "Node.js",
+        "WebSockets",
+        "PostgreSQL"
+      ],
+      "image": "/images/vanta-analytics-dashboard.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Folio OS",
+      "description": "Open-source portfolio CMS that powers 500+ developer portfolios. Markdown-first, zero-config deployment, and a Notion-like editor.",
+      "tags": [
+        "TypeScript",
+        "Prisma",
+        "MDX",
+        "Vercel"
+      ],
+      "image": "/images/folio-os-portfolio-cms.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Pulse",
+      "description": "Mobile-first health tracking app with habit streaks, mood journaling, and weekly AI insights. Featured on Product Hunt #2 of the day.",
+      "tags": [
+        "React Native",
+        "Expo",
+        "FastAPI",
+        "Python"
+      ],
+      "image": "/images/pulse-health-tracking-app.jpg",
+      "link": "#"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "description": "Component-driven UIs with hooks, context, and performance optimization"
+    },
+    {
+      "name": "Next.js",
+      "description": "App Router, SSR, ISR, and edge functions for production-grade web apps"
+    },
+    {
+      "name": "TypeScript",
+      "description": "Strict typing across every layer for maintainable, scalable codebases"
+    },
+    {
+      "name": "Node.js",
+      "description": "RESTful and GraphQL APIs, background jobs, and real-time services"
+    },
+    {
+      "name": "Python",
+      "description": "Data pipelines, ML integrations, and FastAPI microservices"
+    },
+    {
+      "name": "PostgreSQL",
+      "description": "Schema design, query optimization, and complex relational data modeling"
+    },
+    {
+      "name": "Tailwind CSS",
+      "description": "Utility-first styling with custom design systems and dark mode"
+    },
+    {
+      "name": "Figma",
+      "description": "High-fidelity prototypes, component libraries, and design-to-code handoff"
+    },
+    {
+      "name": "Docker",
+      "description": "Containerized local dev and production deployments via CI/CD pipelines"
+    },
+    {
+      "name": "AWS",
+      "description": "S3, Lambda, RDS, and CloudFront for scalable cloud infrastructure"
+    }
+  ],
+  "projects-grid": [
+    {
+      "title": "Luminary",
+      "description": "AI-powered content scheduling platform. Built with Next.js 14, OpenAI API, and Supabase. Reduced editorial planning time by 60% for early-access teams.",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "OpenAI",
+        "Supabase",
+        "Tailwind CSS"
+      ],
+      "image": "/images/luminary-ai-content-platform.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Obsidian UI",
+      "description": "Open-source dark-mode component library for React. 40+ accessible components, fully typed, Storybook-documented, and used by 1,200+ developers on GitHub.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Radix UI",
+        "Tailwind CSS",
+        "Storybook"
+      ],
+      "image": "/images/obsidian-ui-component-library.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Cartographer",
+      "description": "Interactive data-visualization dashboard for geospatial analytics. Renders 500k+ data points in real time using WebGL and Mapbox GL JS.",
+      "tags": [
+        "WebGL",
+        "Mapbox",
+        "D3.js",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "image": "/images/cartographer-geospatial-dashboard.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Pulse",
+      "description": "Real-time team health and retrospective tool for remote engineering squads. Integrates with Jira and Linear; sends weekly digest emails via Resend.",
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "Linear API",
+        "Jira API",
+        "Resend"
+      ],
+      "image": "/images/pulse-team-health-tool.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Folio",
+      "description": "Minimalist markdown-based personal publishing platform. Zero-config deployment to Vercel; supports MDX, syntax highlighting, and RSS.",
+      "tags": [
+        "Next.js",
+        "MDX",
+        "Vercel",
+        "TypeScript"
+      ],
+      "image": "/images/folio-publishing-platform.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Stratum",
+      "description": "Backend API boilerplate with role-based auth, rate limiting, and audit logging. Adopted as an internal starter kit at two Series-A startups.",
+      "tags": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Redis",
+        "Docker"
+      ],
+      "image": "/images/stratum-backend-api-boilerplate.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Wavelength",
+      "description": "Spotify-integrated mood-to-playlist generator using ML embeddings. Clusters listening history to surface contextually relevant playlists.",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Spotify API",
+        "scikit-learn",
+        "React"
+      ],
+      "image": "/images/wavelength-spotify-playlist-generator.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Beacon",
+      "description": "Lightweight feature-flag SDK for Node.js and browser environments. Sub-1ms evaluation latency; supports percentage rollouts and user targeting.",
+      "tags": [
+        "TypeScript",
+        "Node.js",
+        "SDK",
+        "Open Source"
+      ],
+      "image": "/images/beacon-feature-flag-sdk.jpg",
+      "link": "#"
+    }
+  ],
+  "bio": [
+    "7+ years building production-grade web applications",
+    "Former Lead Engineer at a Series B fintech — scaled to 2M MAU",
+    "Open-source contributor with 3,400+ GitHub stars across personal projects",
+    "Speaker at JSConf EU 2023 on edge-rendered architecture",
+    "Based in Berlin, available for remote collaboration worldwide"
+  ],
+  "expertise": [
+    {
+      "title": "Frontend Engineering",
+      "description": "I build performant, accessible interfaces with React, Next.js, and TypeScript. I treat the browser as a first-class runtime: optimising Core Web Vitals, crafting motion that feels earned, and writing component APIs that other developers actually enjoy using."
+    },
+    {
+      "title": "Backend & Systems Design",
+      "description": "Node.js, Go, PostgreSQL, and Redis are my daily tools. I design APIs that scale gracefully, architect event-driven systems, and take database performance personally. I've shipped services handling tens of thousands of requests per second."
+    },
+    {
+      "title": "Product Thinking",
+      "description": "I don't just implement specs; I question them. I work best with teams who want an engineer who can sit in a discovery session, challenge assumptions, and come back with a solution that's simpler than what was asked for."
+    },
+    {
+      "title": "Design Systems",
+      "description": "I've built and maintained design systems used by teams of 30+ designers and engineers. Tokens, documentation, Storybook, versioned releases — I understand what it takes to make a system that scales without becoming a bureaucracy."
+    },
+    {
+      "title": "DevOps & Deployment",
+      "description": "Vercel, AWS, Docker, GitHub Actions. I own the full deployment pipeline on most of my projects, because shipping fast and safely shouldn't require a dedicated ops team."
+    },
+    {
+      "title": "Technical Leadership",
+      "description": "I've mentored junior engineers, run architecture reviews, and written the kind of technical documentation that people actually read. I believe the best senior engineers make everyone around them faster."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2024",
+      "event": "Launched Meridian, an open-source edge-caching library for Next.js App Router, reaching 1,200 GitHub stars in its first month and featured in the Next.js weekly newsletter."
+    },
+    {
+      "year": "2023",
+      "event": "Spoke at JSConf EU in Hamburg on 'Edge-First Architecture: Rethinking Where Code Lives'. Went independent after four years in-house, taking on select client projects and advisory roles."
+    },
+    {
+      "year": "2021–2023",
+      "event": "Lead Engineer at Vaulta (Berlin, fintech). Rebuilt the core payments API in Go, reducing p99 latency from 420ms to 38ms. Grew the engineering team from 4 to 14 and introduced a design-system-first workflow."
+    },
+    {
+      "year": "2019–2021",
+      "event": "Senior Frontend Developer at Arkwright Studio (London, digital agency). Delivered 20+ client projects including a Webby-nominated interactive documentary for the BBC and a real-time data dashboard for the European Space Agency."
+    },
+    {
+      "year": "2017–2019",
+      "event": "Junior Developer at Stackline Labs (remote startup). First production role — shipped features daily, learned to write tests the hard way, and fell in love with the craft of building software."
+    },
+    {
+      "year": "2016",
+      "event": "BSc Computer Science, University of Edinburgh. Graduated with First Class Honours. Dissertation on adaptive UI personalisation using reinforcement learning."
+    }
+  ],
+  "contact-form": [
+    {
+      "label": "Name",
+      "placeholder": "Your full name or preferred alias"
+    },
+    {
+      "label": "Email",
+      "placeholder": "A working address so I can reply directly"
+    },
+    {
+      "label": "Subject",
+      "placeholder": "e.g. Freelance Project, Job Opportunity, Collaboration, Just Saying Hi"
+    },
+    {
+      "label": "Message",
+      "placeholder": "Tell me what you're working on, what you need, and any relevant details or deadlines"
+    },
+    {
+      "label": "Send Message",
+      "placeholder": "Submits the form and triggers a confirmation email"
+    }
+  ],
+  "social-links": [
+    {
+      "platform": "GitHub",
+      "handle": "github.com/alexmorrow",
+      "url": "https://github.com/alexmorrow",
+      "description": "Browse my open-source work, side projects, and code contributions"
+    },
+    {
+      "platform": "LinkedIn",
+      "handle": "linkedin.com/in/alexmorrow",
+      "url": "https://linkedin.com/in/alexmorrow",
+      "description": "Professional background, endorsements, and career updates"
+    },
+    {
+      "platform": "Twitter / X",
+      "handle": "@alexmorrow_dev",
+      "url": "https://twitter.com/alexmorrow_dev",
+      "description": "Thoughts on design systems, dev tooling, and the occasional hot take"
+    },
+    {
+      "platform": "Dribbble",
+      "handle": "dribbble.com/alexmorrow",
+      "url": "https://dribbble.com/alexmorrow",
+      "description": "Visual design explorations, UI concepts, and motion studies"
+    },
+    {
+      "platform": "Read.cv",
+      "handle": "read.cv/alexmorrow",
+      "url": "https://read.cv/alexmorrow",
+      "description": "A curated look at my career story, values, and selected work"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are you available for freelance work?",
+      "answer": "Yes, I take on select freelance projects throughout the year. I prioritize long-term collaborations and product-focused work over one-off tasks. Reach out with your timeline and scope and we'll see if it's a good fit."
+    },
+    {
+      "question": "What's your typical response time?",
+      "answer": "I aim to reply to all messages within 24 hours on weekdays. For urgent inquiries, mention it in the subject line and I'll prioritize accordingly."
+    },
+    {
+      "question": "Do you work with international clients?",
+      "answer": "Absolutely. I've collaborated with teams across Europe, North America, and Southeast Asia. I'm comfortable working across time zones and async-first environments."
+    },
+    {
+      "question": "What information should I include in my first message?",
+      "answer": "A brief description of the project, your expected timeline, budget range (if applicable), and any reference links or inspiration you have in mind. The more context, the better."
+    },
+    {
+      "question": "Do you offer design-only or development-only engagements?",
+      "answer": "Yes. While I often work across the full stack, I'm happy to step in as a designer, a developer, or both — depending on what your team needs."
+    },
+    {
+      "question": "Can I see more work that isn't on the Projects page?",
+      "answer": "Some client work is under NDA, but I'm happy to share additional case studies privately during a call. Just mention it in your message."
+    }
+  ],
+  "about": {
+    "bio1": "Designer and developer crafting digital experiences that blend aesthetics with functionality. I specialize in creating intuitive interfaces and scalable design systems.",
+    "bio2": "With a passion for clean code and thoughtful design, I help brands and startups build products that users love.",
+    "ctaBody": "Let's collaborate on something great. Whether it's a new project, design system, or strategic partnership, I'm always open to interesting opportunities.",
+    "ctaButton": "Get in touch",
+    "ctaEyebrow": "Ready to work together?",
+    "ctaHeadline": "Let's create something amazing",
+    "emailCta": "Send me an email",
+    "expertiseSubtitle": "Combining design thinking with modern development practices to solve real problems.",
+    "expertiseTitle": "My expertise",
+    "eyebrow": "About me",
+    "headline": "Designer, developer, and digital craftsman",
+    "location": "Based in San Francisco, CA",
+    "resumeCta": "Download my resume",
+    "timelineEducation": "Education",
+    "timelineSubtitle": "A timeline of my professional journey and learning.",
+    "timelineTitle": "Experience & Education",
+    "timelineWork": "Work"
+  },
+  "contact": {
+    "faq": {
+      "footer": "Still have questions? Reach out directly—I'd love to hear from you.",
+      "heading": "Frequently asked questions",
+      "subheading": "Find answers to common questions about working together."
+    },
+    "form": {
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "errors": {
+        "emailInvalid": "Please enter a valid email address",
+        "emailRequired": "Email is required",
+        "messageRequired": "Message is required",
+        "messageTooShort": "Message must be at least 10 characters",
+        "nameRequired": "Name is required",
+        "subjectRequired": "Please select a subject"
+      },
+      "heading": "Get in touch",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your project or idea...",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "subheading": "Have a project in mind? Let's talk about it.",
+      "subjectLabel": "Subject",
+      "subjectOptions": {
+        "collaboration": "Collaboration",
+        "consulting": "Consulting",
+        "newProject": "New project",
+        "other": "Other",
+        "speaking": "Speaking engagement"
+      },
+      "subjectPlaceholder": "Select a subject",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": {
+        "body": "Thanks for reaching out! I'll get back to you within 24 hours.",
+        "reset": "Send another message",
+        "title": "Message sent"
+      }
+    },
+    "hero": {
+      "badge": "Let's connect",
+      "subtitle": "Have a question or want to collaborate? I'm here to help.",
+      "title": "Get in touch"
+    },
+    "sidebar": {
+      "bookCall": "Book a call",
+      "directHeading": "Get in touch",
+      "responseDetail": "I typically respond within 24 hours",
+      "responseTime": "Response time",
+      "socialHeading": "Connect"
+    }
+  },
+  "home": {
+    "cta": {
+      "body": "Ready to bring your vision to life? Let's collaborate and create something exceptional together.",
+      "footnote": "Available for freelance and full-time opportunities",
+      "heading": "Let's work together",
+      "primary": "Start a project",
+      "secondary": "Learn more"
+    },
+    "hero": {
+      "availableNow": "Available now",
+      "badge": "Portfolio",
+      "ctaPrimary": "View my work",
+      "ctaSecondary": "Get in touch",
+      "fastDelivery": "Fast delivery",
+      "headline1": "Crafting digital experiences",
+      "headline2": "that inspire and engage",
+      "headlineAccent": "with precision",
+      "openSource": "Open source advocate",
+      "subheadline": "I design and build modern web solutions with clean code and thoughtful design."
+    },
+    "projects": {
+      "eyebrow": "Featured work",
+      "heading": "Selected projects",
+      "viewAll": "View all projects",
+      "viewProject": "View project"
+    },
+    "skills": {
+      "body": "Specialized in frontend development, UI design, and creating seamless user experiences across all devices.",
+      "cta": "Explore skills",
+      "eyebrow": "What I do",
+      "heading": "Full-stack capabilities"
+    },
+    "stats": {
+      "ariaLabel": "Key statistics"
+    },
+    "testimonials": {
+      "eyebrow": "Social proof",
+      "heading": "Trusted by clients"
+    }
+  },
+  "projects": {
+    "badge": "Featured",
+    "count": "projects",
+    "cta": {
+      "body": "Interested in collaborating? I'd love to hear about your next project.",
+      "button": "Start a conversation",
+      "heading": "Have a project in mind?"
+    },
+    "empty": {
+      "body": "Check back soon for new case studies and project showcases.",
+      "title": "No projects yet"
+    },
+    "featured": "Featured",
+    "heading": "Projects",
+    "source": "View source",
+    "subheading": "A collection of recent work and experiments",
+    "viewProject": "View project"
+  }
+}
