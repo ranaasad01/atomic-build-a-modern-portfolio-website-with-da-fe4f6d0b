@@ -3,21 +3,22 @@
     "home": "Inicio",
     "projects": "Proyectos",
     "about": "Acerca de",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "todos": "Tareas"
   },
   "about": {
-    "bio1": "Diseñador y desarrollador que crea experiencias digitales que combinan estética con funcionalidad. Me especializo en crear interfaces intuitivas y sistemas de diseño escalables.",
+    "bio1": "Diseñador y desarrollador que crea experiencias digitales que combinan estética con funcionalidad. Me especializo en construir interfaces intuitivas y sistemas de diseño escalables.",
     "bio2": "Con pasión por el código limpio y el diseño reflexivo, ayudo a marcas y startups a construir productos que los usuarios aman.",
     "ctaBody": "Colaboremos en algo extraordinario. Ya sea un nuevo proyecto, sistema de diseño o asociación estratégica, siempre estoy abierto a oportunidades interesantes.",
     "ctaButton": "Ponte en contacto",
     "ctaEyebrow": "¿Listo para trabajar juntos?",
-    "ctaHeadline": "Creemos algo increíble",
+    "ctaHeadline": "Construyamos algo genial",
     "emailCta": "Envíame un correo",
     "expertiseSubtitle": "Combinando pensamiento de diseño con prácticas modernas de desarrollo para resolver problemas reales.",
     "expertiseTitle": "Mi experiencia",
     "eyebrow": "Acerca de mí",
     "headline": "Diseñador, desarrollador y artesano digital",
-    "location": "Basado en San Francisco, CA",
+    "location": "Ubicado en San Francisco, CA",
     "resumeCta": "Descargar mi currículum",
     "timelineEducation": "Educación",
     "timelineSubtitle": "Una línea de tiempo de mi trayectoria profesional y aprendizaje.",
@@ -26,7 +27,7 @@
   },
   "contact": {
     "faq": {
-      "footer": "¿Aún tienes preguntas? Comunícate directamente—me encantaría saber de ti.",
+      "footer": "¿Aún tienes preguntas? Comunícate directamente — me encantaría saber de ti.",
       "heading": "Preguntas frecuentes",
       "subheading": "Encuentra respuestas a preguntas comunes sobre trabajar juntos."
     },
@@ -72,7 +73,7 @@
     "sidebar": {
       "bookCall": "Agendar una llamada",
       "directHeading": "Ponte en contacto",
-      "responseDetail": "Normalmente respondo dentro de 24 horas",
+      "responseDetail": "Generalmente respondo dentro de 24 horas",
       "responseTime": "Tiempo de respuesta",
       "socialHeading": "Conectar"
     }
@@ -92,48 +93,74 @@
       "ctaSecondary": "Ponte en contacto",
       "fastDelivery": "Entrega rápida",
       "headline1": "Creando experiencias digitales",
-      "headline2": "que inspiran e involucran",
-      "headlineAccent": "con precisión",
-      "openSource": "Defensor del código abierto",
-      "subheadline": "Diseño y construyo soluciones web modernas con código limpio y diseño reflexivo."
+      "headline2": "que dejan huella",
+      "subheadline": "Desarrollador Full-Stack y Tecnólogo Creativo basado en San Francisco. Construyendo productos digitales rápidos, hermosos y con propósito.",
+      "headlineAccent": "Mantente Organizado, Mantente Productivo",
+      "openSource": "Construye tu impulso diario con gestión de tareas sin interrupciones"
     },
     "projects": {
-      "eyebrow": "Trabajos destacados",
-      "heading": "Proyectos seleccionados",
-      "viewAll": "Ver todos los proyectos",
-      "viewProject": "Ver proyecto"
+      "cta": "Ver todos los proyectos",
+      "eyebrow": "Trabajo seleccionado",
+      "heading": "Proyectos de los que estoy orgulloso",
+      "viewAll": "Ver Todas las Tareas",
+      "viewProject": "Abrir Tarea"
     },
     "skills": {
-      "body": "Especializado en desarrollo frontend, diseño UI y creación de experiencias de usuario fluidas en todos los dispositivos.",
-      "cta": "Explorar habilidades",
-      "eyebrow": "Qué hago",
-      "heading": "Capacidades full-stack"
+      "eyebrow": "Stack tecnológico",
+      "heading": "Con qué trabajo",
+      "body": "Gestiona, realiza un seguimiento y completa tus objetivos diarios sin esfuerzo",
+      "cta": "Comenzar a Gestionar Tareas"
     },
     "stats": {
-      "ariaLabel": "Estadísticas clave"
+      "eyebrow": "Por los números",
+      "ariaLabel": "Estadísticas de finalización de tareas"
     },
     "testimonials": {
-      "eyebrow": "Prueba social",
-      "heading": "Confiado por clientes"
+      "eyebrow": "Palabras amables",
+      "heading": "Qué dice la gente"
     }
   },
   "projects": {
-    "badge": "Destacado",
-    "count": "proyectos",
+    "eyebrow": "Mi trabajo",
+    "heading": "Proyectos y Casos de Estudio",
+    "subheading": "Una selección curada de proyectos que abarcan diseño de productos, ingeniería y código abierto.",
+    "filterAll": "Todos",
+    "noResults": "Ningún proyecto coincide con tu filtro.",
+    "badge": "Tarea",
+    "count": "Total de Tareas",
     "cta": {
-      "body": "¿Interesado en colaborar? Me encantaría conocer tu próximo proyecto.",
-      "button": "Iniciar una conversación",
-      "heading": "¿Tienes un proyecto en mente?"
+      "body": "¿Listo para tomar el control de tu día?",
+      "button": "Crear Tu Primera Tarea",
+      "heading": "Comienza Hoy"
     },
     "empty": {
-      "body": "Vuelve pronto para nuevos estudios de caso y proyectos destacados.",
-      "title": "Sin proyectos aún"
+      "body": "Sin tareas aún. Crea una para comenzar tu camino hacia la productividad.",
+      "title": "Tu lista de tareas está vacía"
     },
-    "featured": "Destacado",
-    "heading": "Proyectos",
-    "source": "Ver código fuente",
-    "subheading": "Una colección de trabajos recientes y experimentos",
-    "viewProject": "Ver proyecto"
+    "featured": "Tareas Destacadas",
+    "source": "Ver Detalles",
+    "viewProject": "Ver Tarea"
+  },
+  "todos": {
+    "title": "Mis Tareas",
+    "subtitle": "Mantente organizado y completa las cosas.",
+    "addPlaceholder": "Añadir una nueva tarea...",
+    "addButton": "Añadir Tarea",
+    "emptyTitle": "Sin tareas aún",
+    "emptySubtitle": "Añade tu primera tarea para comenzar.",
+    "editPlaceholder": "Editar tarea...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "complete": "Marcar como completada",
+    "incomplete": "Marcar como incompleta",
+    "filterAll": "Todas",
+    "filterActive": "Activas",
+    "filterCompleted": "Completadas",
+    "tasksRemaining": "tareas pendientes",
+    "clearCompleted": "Limpiar completadas",
+    "signInRequired": "Inicia sesión para gestionar tus tareas",
+    "signInButton": "Iniciar sesión"
   },
   "hero": [
     "Scroll to explore",
@@ -261,218 +288,27 @@
     },
     {
       "title": "Cartographer",
-      "description": "Interactive data-visualization dashboard for geospatial analytics. Renders 500k+ data points in real time using WebGL and Mapbox GL JS.",
+      "description": "Interactive data visualization tool for geographic datasets. Built with D3.js and WebGL for smooth rendering of millions of data points.",
       "tags": [
-        "WebGL",
-        "Mapbox",
         "D3.js",
-        "Node.js",
-        "PostgreSQL"
+        "WebGL",
+        "TypeScript",
+        "Node.js"
       ],
-      "image": "/images/cartographer-geospatial-dashboard.jpg",
+      "image": "/images/cartographer-data-viz.jpg",
       "link": "#"
     },
     {
       "title": "Pulse",
-      "description": "Real-time team health and retrospective tool for remote engineering squads. Integrates with Jira and Linear; sends weekly digest emails via Resend.",
+      "description": "Mobile-first health tracking app with habit streaks, mood journaling, and weekly AI insights. Featured on Product Hunt #2 of the day.",
       "tags": [
-        "Next.js",
-        "Prisma",
-        "Linear API",
-        "Jira API",
-        "Resend"
-      ],
-      "image": "/images/pulse-team-health-tool.jpg",
-      "link": "#"
-    },
-    {
-      "title": "Folio",
-      "description": "Minimalist markdown-based personal publishing platform. Zero-config deployment to Vercel; supports MDX, syntax highlighting, and RSS.",
-      "tags": [
-        "Next.js",
-        "MDX",
-        "Vercel",
-        "TypeScript"
-      ],
-      "image": "/images/folio-publishing-platform.jpg",
-      "link": "#"
-    },
-    {
-      "title": "Stratum",
-      "description": "Backend API boilerplate with role-based auth, rate limiting, and audit logging. Adopted as an internal starter kit at two Series-A startups.",
-      "tags": [
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "Redis",
-        "Docker"
-      ],
-      "image": "/images/stratum-backend-api-boilerplate.jpg",
-      "link": "#"
-    },
-    {
-      "title": "Wavelength",
-      "description": "Spotify-integrated mood-to-playlist generator using ML embeddings. Clusters listening history to surface contextually relevant playlists.",
-      "tags": [
-        "Python",
+        "React Native",
+        "Expo",
         "FastAPI",
-        "Spotify API",
-        "scikit-learn",
-        "React"
+        "Python"
       ],
-      "image": "/images/wavelength-spotify-playlist-generator.jpg",
+      "image": "/images/pulse-health-tracking-app.jpg",
       "link": "#"
-    },
-    {
-      "title": "Beacon",
-      "description": "Lightweight feature-flag SDK for Node.js and browser environments. Sub-1ms evaluation latency; supports percentage rollouts and user targeting.",
-      "tags": [
-        "TypeScript",
-        "Node.js",
-        "SDK",
-        "Open Source"
-      ],
-      "image": "/images/beacon-feature-flag-sdk.jpg",
-      "link": "#"
-    }
-  ],
-  "bio": [
-    "7+ years building production-grade web applications",
-    "Former Lead Engineer at a Series B fintech — scaled to 2M MAU",
-    "Open-source contributor with 3,400+ GitHub stars across personal projects",
-    "Speaker at JSConf EU 2023 on edge-rendered architecture",
-    "Based in Berlin, available for remote collaboration worldwide"
-  ],
-  "expertise": [
-    {
-      "title": "Frontend Engineering",
-      "description": "I build performant, accessible interfaces with React, Next.js, and TypeScript. I treat the browser as a first-class runtime: optimising Core Web Vitals, crafting motion that feels earned, and writing component APIs that other developers actually enjoy using."
-    },
-    {
-      "title": "Backend & Systems Design",
-      "description": "Node.js, Go, PostgreSQL, and Redis are my daily tools. I design APIs that scale gracefully, architect event-driven systems, and take database performance personally. I've shipped services handling tens of thousands of requests per second."
-    },
-    {
-      "title": "Product Thinking",
-      "description": "I don't just implement specs; I question them. I work best with teams who want an engineer who can sit in a discovery session, challenge assumptions, and come back with a solution that's simpler than what was asked for."
-    },
-    {
-      "title": "Design Systems",
-      "description": "I've built and maintained design systems used by teams of 30+ designers and engineers. Tokens, documentation, Storybook, versioned releases — I understand what it takes to make a system that scales without becoming a bureaucracy."
-    },
-    {
-      "title": "DevOps & Deployment",
-      "description": "Vercel, AWS, Docker, GitHub Actions. I own the full deployment pipeline on most of my projects, because shipping fast and safely shouldn't require a dedicated ops team."
-    },
-    {
-      "title": "Technical Leadership",
-      "description": "I've mentored junior engineers, run architecture reviews, and written the kind of technical documentation that people actually read. I believe the best senior engineers make everyone around them faster."
-    }
-  ],
-  "timeline": [
-    {
-      "year": "2024",
-      "event": "Launched Meridian, an open-source edge-caching library for Next.js App Router, reaching 1,200 GitHub stars in its first month and featured in the Next.js weekly newsletter."
-    },
-    {
-      "year": "2023",
-      "event": "Spoke at JSConf EU in Hamburg on 'Edge-First Architecture: Rethinking Where Code Lives'. Went independent after four years in-house, taking on select client projects and advisory roles."
-    },
-    {
-      "year": "2021–2023",
-      "event": "Lead Engineer at Vaulta (Berlin, fintech). Rebuilt the core payments API in Go, reducing p99 latency from 420ms to 38ms. Grew the engineering team from 4 to 14 and introduced a design-system-first workflow."
-    },
-    {
-      "year": "2019–2021",
-      "event": "Senior Frontend Developer at Arkwright Studio (London, digital agency). Delivered 20+ client projects including a Webby-nominated interactive documentary for the BBC and a real-time data dashboard for the European Space Agency."
-    },
-    {
-      "year": "2017–2019",
-      "event": "Junior Developer at Stackline Labs (remote startup). First production role — shipped features daily, learned to write tests the hard way, and fell in love with the craft of building software."
-    },
-    {
-      "year": "2016",
-      "event": "BSc Computer Science, University of Edinburgh. Graduated with First Class Honours. Dissertation on adaptive UI personalisation using reinforcement learning."
-    }
-  ],
-  "contact-form": [
-    {
-      "label": "Name",
-      "placeholder": "Your full name or preferred alias"
-    },
-    {
-      "label": "Email",
-      "placeholder": "A working address so I can reply directly"
-    },
-    {
-      "label": "Subject",
-      "placeholder": "e.g. Freelance Project, Job Opportunity, Collaboration, Just Saying Hi"
-    },
-    {
-      "label": "Message",
-      "placeholder": "Tell me what you're working on, what you need, and any relevant details or deadlines"
-    },
-    {
-      "label": "Send Message",
-      "placeholder": "Submits the form and triggers a confirmation email"
-    }
-  ],
-  "social-links": [
-    {
-      "platform": "GitHub",
-      "handle": "github.com/alexmorrow",
-      "url": "https://github.com/alexmorrow",
-      "description": "Browse my open-source work, side projects, and code contributions"
-    },
-    {
-      "platform": "LinkedIn",
-      "handle": "linkedin.com/in/alexmorrow",
-      "url": "https://linkedin.com/in/alexmorrow",
-      "description": "Professional background, endorsements, and career updates"
-    },
-    {
-      "platform": "Twitter / X",
-      "handle": "@alexmorrow_dev",
-      "url": "https://twitter.com/alexmorrow_dev",
-      "description": "Thoughts on design systems, dev tooling, and the occasional hot take"
-    },
-    {
-      "platform": "Dribbble",
-      "handle": "dribbble.com/alexmorrow",
-      "url": "https://dribbble.com/alexmorrow",
-      "description": "Visual design explorations, UI concepts, and motion studies"
-    },
-    {
-      "platform": "Read.cv",
-      "handle": "read.cv/alexmorrow",
-      "url": "https://read.cv/alexmorrow",
-      "description": "A curated look at my career story, values, and selected work"
-    }
-  ],
-  "faq": [
-    {
-      "question": "Are you available for freelance work?",
-      "answer": "Yes, I take on select freelance projects throughout the year. I prioritize long-term collaborations and product-focused work over one-off tasks. Reach out with your timeline and scope and we'll see if it's a good fit."
-    },
-    {
-      "question": "What's your typical response time?",
-      "answer": "I aim to reply to all messages within 24 hours on weekdays. For urgent inquiries, mention it in the subject line and I'll prioritize accordingly."
-    },
-    {
-      "question": "Do you work with international clients?",
-      "answer": "Absolutely. I've collaborated with teams across Europe, North America, and Southeast Asia. I'm comfortable working across time zones and async-first environments."
-    },
-    {
-      "question": "What information should I include in my first message?",
-      "answer": "A brief description of the project, your expected timeline, budget range (if applicable), and any reference links or inspiration you have in mind. The more context, the better."
-    },
-    {
-      "question": "Do you offer design-only or development-only engagements?",
-      "answer": "Yes. While I often work across the full stack, I'm happy to step in as a designer, a developer, or both — depending on what your team needs."
-    },
-    {
-      "question": "Can I see more work that isn't on the Projects page?",
-      "answer": "Some client work is under NDA, but I'm happy to share additional case studies privately during a call. Just mention it in your message."
     }
   ]
 }
